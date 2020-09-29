@@ -10,12 +10,20 @@ namespace Dolgozat2020._09._29
     {
         static void Main(string[] args)
         {
-           
-            
-            
-            
-            
-            
+            //bankautomata
+            Console.WriteLine("bankjegyautomamta");
+            Console.WriteLine("A legkisebb címlet 1000 Ft, a maximálisan felvehtő összeg 300 000Ft.");
+            Console.Write("Adja meg mekkora összeget kíván felvenni   ");
+            int osszeg = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("kiadott bankjegyek:");
+
+            Console.WriteLine(osszeg / 10000);
+
+            Console.WriteLine(osszeg / 5000);
+            Console.WriteLine(osszeg / 1000);
+            Console.WriteLine("összeg    "+osszeg+"ft");
+
+
             //üzemanyag
 
             Console.WriteLine("utazási költségtérités");
